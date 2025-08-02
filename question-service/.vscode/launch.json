@@ -1,0 +1,27 @@
+{
+    "configurations": [
+      {
+        "type": "java",
+        "name": "QuestionService - Port 8080",
+        "request": "launch",
+        "cwd": "${workspaceFolder}",
+        "mainClass": "com.yashank.question_service.QuestionServiceApplication",
+        "projectName": "question-service",
+        "args": "",
+        "vmArgs": "-Dserver.port=8080",
+        "envFile": "${workspaceFolder}/.env"
+      },
+      {
+        "type": "java",
+        "name": "QuestionService - Port 8081",
+        "request": "launch",
+        "cwd": "${workspaceFolder}",
+        "mainClass": "com.yashank.question_service.QuestionServiceApplication",
+        "projectName": "question-service",
+        "args": "",
+        "vmArgs": "-Dserver.port=8081",
+        "envFile": "${workspaceFolder}/.env"
+      }
+    ]
+  }
+  
